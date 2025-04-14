@@ -83,15 +83,26 @@
 
     .hero p {
         font-size: 16px;
-        line-height: 28px;
+        line-height: 30px;
     }
 
     .hero-connect {
-        padding: 12px 20px;
-        font-size: 10px;
+        padding: 15px 20px;
+        font-size: 14px;
     }
     .hero-resume{
-        padding: 12px 20px;
-        font-size: 10px;
+        padding: 15px 28px;
+        font-size: 14px;
+    }
+
+    .hero img {
+        height: 24vh;
+        border-radius: 50%;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+    
+    .hero-action{
+        margin-bottom: 55px;
     }
 }

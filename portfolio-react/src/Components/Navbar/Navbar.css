@@ -32,6 +32,10 @@
      transform: scale(1.05);
  }
 
+ .anchor-link:hover {
+     color: orange;
+ }
+
  /* Hamburger icon */
  .hamburger {
      display: none;
@@ -58,6 +62,12 @@
 
  .hide {
      opacity: 0;
+ }
+
+ .anchor-link {
+     text-decoration: none;
+     color: white;
+
  }
 
  /* Responsive Styles */
