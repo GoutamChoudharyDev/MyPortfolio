@@ -4,11 +4,11 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <div className="nav-logo">GOUTAM</div>
+            <div className="nav-logo"><span className='color-text'>GOUTAM</span></div>
             <ul className="nav-menu">
                 <li>Home</li>
                 <li>About Me</li>
-                <li>Services</li>
+                <li>My Work</li>
                 <li>portfolio</li>
                 <li>Contact</li>
             </ul>
