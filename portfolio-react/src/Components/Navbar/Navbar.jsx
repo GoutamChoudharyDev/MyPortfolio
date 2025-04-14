@@ -1,20 +1,30 @@
-import React from 'react'
-import './Navbar.css'
+import React, { useState } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <div className='navbar'>
             <div className="nav-logo"><span className='color-text'>GOUTAM</span></div>
-            <ul className="nav-menu">
+            
+            <div className={`nav-menu ${menuOpen ? "open" : ""}`}>
                 <li>Home</li>
                 <li>About Me</li>
                 <li>My Work</li>
-                <li>portfolio</li>
+                <li>Portfolio</li>
                 <li>Contact</li>
-            </ul>
+            </div>
+            
             <div className="nav-connect">Connect With Me</div>
-        </div>
-    )
-}
 
-export default Navbar
+            <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+                <div className={`bar ${menuOpen ? "rotate1" : ""}`}></div>
+                <div className={`bar ${menuOpen ? "hide" : ""}`}></div>
+                <div className={`bar ${menuOpen ? "rotate2" : ""}`}></div>
+            </div>
+        </div>
+    );
+};
+
+export default Navbar;

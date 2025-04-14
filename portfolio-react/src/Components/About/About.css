@@ -79,40 +79,41 @@
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
 }
 
-.about-achievements{
+.about-achievements {
     display: flex;
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
 }
 
-.about-achievement{
+.about-achievement {
     display: flex;
     flex-direction: column;
     gap: 10px;
     transition: 0.5s;
 }
 
-.about-achievement h1{
+.about-achievement h1 {
     font-size: 44px;
     font-weight: 700;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    -webkit-background-clip: text;    
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}   
+}
 
-.about-achievement ul li{
+.about-achievement ul li {
     font-size: 18px;
     font-weight: 500;
     margin: 10px;
 }
 
-.about-skill:hover{
+.about-skill:hover {
     transform: scale(1.04);
     transition: 0.3s;
 }
 
-.about-achievement:hover{
+.about-achievement:hover {
     transform: scale(1.08);
     transition: 0.5s;
 }
+

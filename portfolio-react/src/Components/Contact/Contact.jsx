@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import './ContactMQ.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'

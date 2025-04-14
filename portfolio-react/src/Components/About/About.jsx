@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import './AboutMQ.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import about_img from '../../assets/about_img.jpg'
 
@@ -36,7 +37,6 @@ const About = () => {
                         <li>Quiz App[Reactjs]</li>
                         <li>To-Do-App[Reactjs]</li>
                         <li>Personal Portfolio[Reactjs]</li>
-                        {/* <li>Amazon Clone[HTML & CSS]</li> */}
                     </ul>
                 </div>
                 <hr />

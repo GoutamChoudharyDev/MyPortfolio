@@ -45,5 +45,41 @@
     transition: 0.3;
 }
 
+/* Responsive */
+@media (max-width: 1024px) {
+    .mywork-title h1 {
+        font-size: 55px;
+    }
 
+    .mywork-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mywork-title h1 {
+        font-size: 42px;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .mywork-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .mywork-title h1 {
+        font-size: 32px;
+    }
+
+    .mywork-container {
+        gap: 20px;
+    }
+}
 

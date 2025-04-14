@@ -1,0 +1,136 @@
+/* Responsive */
+/* Tablets (up to 1024px) */
+@media (max-width: 1024px) {
+    .about {
+        margin: 60px 80px;
+        gap: 50px;
+    }
+
+    .about-title h1 {
+        font-size: 50px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-left img {
+        height: 50vh;
+    }
+
+    .about-right {
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-para {
+        font-size: 20px;
+    }
+
+    .about-skill p {
+        font-size: 20px;
+    }
+
+    .about-achievements {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about-achievement h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .about-achievement ul li {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* Mobile (up to 768px) */
+@media (max-width: 768px) {
+    .about {
+        margin: 40px 30px;
+        gap: 40px;
+    }
+
+    .about-title h1 {
+        font-size: 40px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-title img {
+        height: 40px;
+    }
+
+    .about-left img {
+        height: 40vh;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+
+    .about-skill {
+        gap: 20px;
+    }
+
+    .about-skill p {
+        font-size: 18px;
+    }
+
+    .about-skill hr {
+        height: 6px;
+    }
+
+    .about-achievement h1 {
+        font-size: 28px;
+    }
+
+    .about-achievement ul li {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices (up to 480px) */
+@media (max-width: 480px) {
+    .about {
+        margin: 30px 20px;
+        gap: 30px;
+    }
+
+    .about-title h1 {
+        font-size: 32px;
+    }
+
+    .about-left img {
+        height: 35vh;
+    }
+
+    .about-para {
+        font-size: 16px;
+        gap: 15px;
+    }
+
+    .about-skill p {
+        font-size: 16px;
+        min-width: 120px;
+    }
+
+    .about-skill hr {
+        height: 5px;
+    }
+
+    .about-achievement h1 {
+        font-size: 24px;
+    }
+
+    .about-achievement ul li {
+        font-size: 13px;
+    }
+}
